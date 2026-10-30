@@ -1,0 +1,2 @@
+let target = "Software Developer";
+console.log(target);
