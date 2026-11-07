@@ -1,6 +1,6 @@
-console.log(null > 0);
-console.log(null >= 0);
-console.log(null == 0); 
+//console.log(null > 0);
+//console.log(null >= 0);
+//console.log(null == 0); 
 // false
 //true
 //false
@@ -8,3 +8,10 @@ console.log(null == 0);
 
 //strick checking
 // == checks for equality and === checks for equality and type. 
+console.log(null == 0);
+console.log(0 == 0);
+console.log("0" == 0);
+console.log(false == 0);
+
+
+``
