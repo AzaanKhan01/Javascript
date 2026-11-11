@@ -14,10 +14,25 @@ myAnotherName = "azaanKhan"; // changing the value of myAnotherName does not aff
 console.log(myAnotherName); // "azaanKhan" */
 
 // Example of heap memory
-let myName = { name: "azaan" };
+/* let myName = { name: "azaan" };
 let myAnotherName = myName; // we get a reference to the value
 console.log(myName); // { name: "azaan" }
 //console.log(typeof myName); // object
 //console.log(typeof myAnotherName); // object
 myAnotherName.name = "azaanKhan"; // changing the value of myAnotherName affects myName
-console.log(myName); // { name: "azaanKhan" }
+console.log(myName); // { name: "azaanKhan" } */
+
+
+
+let user1 = {name : "azaan",
+    email : "azaan.ak001@gmail.com",
+    age : 24};
+
+let user2 = {name : "adan",
+    email : "adan.ak001@gmail.com", 
+    age : 21};
+
+    console.log(user1);
+    console.log(user2);
+user2.name = "azam";
+    console.log(user2);
