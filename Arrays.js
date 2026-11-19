@@ -32,3 +32,5 @@ console.log(result) //concat method is used to merge two arrays
 
 const result2 = [...myAmbitions, ...actions] // divides the arrays into individual elements and then merges them into a new array
 console.log(result2)
+const str = "Azaan"
+console.log(Array.from(str)) //converts a string into an array of characters
