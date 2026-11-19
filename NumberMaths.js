@@ -16,4 +16,4 @@ console.log(Math.random()); // gives random number between 0 and 1
 console.log(Math.max(1, 2, 3, 4, 5)); // gives maximum value
 console.log(Math.min(1, 2, 3, 4, 5)); // gives minimum value    
 console.log(Math.pow(2, 3)); // gives power of a number
-console.log(Math.sqrt(16)); // gives square root of a number
+console.log(Math.sqrt(16)); // gives square root of a number 
