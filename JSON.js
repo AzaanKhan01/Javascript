@@ -10,16 +10,29 @@ const courses = {
 //but to maaintain a clean code, we do the same thing in a slightly differernt way
 //syntax : cosnt {value} = Object name
 
-const {price} = courses;
-console.log(price);
+/* const {price} = courses;
+console.log(price); */
 
 //this is how we accessed the values, now let's  desctructure it 
 //Syntax const {value : newVariable} = ObjectName
 
-const {courseName : course} = courses;
+/* const {courseName : course} = courses;
 console.log(course);
+ */
 
-
-
+// now let's study APIs
+//JSON {}
+//it is usually in object form
+/* {
+    courseName : "Javascript",
+    Instructor : "Hitesh",
+    price : "999"
+}
+but JSON can be in array formaat as well */
+/* [
+    {},
+    {},
+    {}
+] */
 
 
